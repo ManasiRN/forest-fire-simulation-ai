@@ -88,5 +88,51 @@ All raster data was **resampled to 30m resolution** and aligned.
 
 ---
 
+This project focuses on forest fire risk prediction and simulation using AI/ML techniques like Random Forest, U-Net segmentation, LSTM-based time series forecasting, and Cellular Automata for fire spread.
+
+### 🗺️ Project Visuals
+
+#### 1. Fire Risk Input Features
+![Input Features](https://github.com/ManasiRN/forest-fire-simulation-ai/blob/main/image2.jpg?raw=true)
+
+#### 2. Predicted Fire Risk Map (U-Net / Random Forest Output)
+![Predicted Risk Map](https://github.com/ManasiRN/forest-fire-simulation-ai/blob/main/image1.jpg?raw=true)
+
+#### 3. Fire Risk Classification (High, Moderate, Low, Nil)
+![Risk Classification](https://github.com/ManasiRN/forest-fire-simulation-ai/blob/main/image3.jpg?raw=true)
+
+
+## 📈 Evaluation Metrics
+
+| Task              | Metric Used         |
+|-------------------|---------------------|
+| Random Forest     | Accuracy, Confusion Matrix |
+| U-Net Prediction  | Accuracy, IoU, Dice Coefficient |
+| Fire Spread       | Visual Fidelity, Zone Expansion Accuracy |
+
+---
+
+## 🧪 Future Improvements
+
+- Add LSTM for time-series forecasting of Day N+1 fires.
+- Use dynamic wind field in Cellular Automata.
+- Switch to PyTorch Lightning for scalable model training.
+- Build web-based viewer with Leaflet/Folium.
+
+
+---
+
+## 🧑‍💻 Author
+
+**Manasi Roshan Netrekar**  
+B.Tech in Computer Science  
+GitHub: [@manasinetrekar](https://github.com/manasinetrekar)  
+
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License**.
 
 
