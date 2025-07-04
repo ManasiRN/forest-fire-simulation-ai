@@ -35,11 +35,21 @@ Uncontrolled forest fires threaten biodiversity, climate, and human settlements.
 |---------------|----------------------------------|--------------------------------------|
 | DEM           | Bhoonidhi Portal                | Used to derive slope/aspect          |
 | LULC          | Bhuvan (ISRO) / Earth Engine    | Indicates fuel availability          |
-| Weather       | ERA5 / MOSDAC / IMD             | Temperature, Wind, Rain, Humidity    |
+| Weather       | ERA5 / MOSDAC / IMD             | Temp, Wind, Rain, Humidity for April–May 2016 |
 | Human Sett.   | GHSL                            | Stressor layer: human-built areas    |
-| Fire Labels   | VIIRS-SNPP Active Fires         | Ground truth for training            |
+| Fire Labels   | VIIRS-SNPP Active Fires         | Uttarakhand, India (April–May 2016)  |
+
 
 All raster data was **resampled to 30m resolution** and aligned.
+
+---
+
+## 🗺️ Study Area & Timeline
+
+- **Region:** Uttarakhand, India  
+- **Time Period:** April to May 2016  
+- **Reason for Selection:** Forest fire outbreaks were significant during this time in Uttarakhand.  
+- All input raster layers were clipped and resampled to the same bounding box for the region and time range.
 
 ---
 
